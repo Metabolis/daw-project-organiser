@@ -2,6 +2,8 @@
 
 A powerful database-driven project manager for Acoustica Mixcraft (versions 6-10). Scan, search, and organise your Mixcraft projects with advanced filtering, metadata editing, and sample tracking.
 
+Born from never saving my Mixcraft projects where I should, or naming them appropriately and not being able to find music I've written in the past - this tool solves the eternal struggle of music producers everywhere: **"Where did I save that project?"**
+
 ![Version](https://img.shields.io/badge/version-0.9.0--beta-blue)
 ![Platform](https://img.shields.io/badge/platform-Windows-lightgrey)
 ![Mixcraft](https://img.shields.io/badge/Mixcraft-6%20%7C%207%20%7C%208%20%7C%209%20%7C%2010-orange)
