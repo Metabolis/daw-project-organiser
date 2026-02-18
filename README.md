@@ -204,7 +204,7 @@ Mixcraft is a registered trademark of Acoustica, Inc.
 
 **File Modifications:** This tool reads Mixcraft project files and modifies them only when you 
 explicitly use the following features:
-- **Metadata Editing** - When editing Title, Author, or BPM (with optional backup)
+- **Metadata Editing** - when editing Title, Author, or other metadata (with optional backup)
 - **Fix Missing Samples** - When updating sample paths to point to new locations
 
 All modifications are performed with user consent and confirmation dialogs.
