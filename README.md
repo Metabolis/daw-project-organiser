@@ -119,7 +119,6 @@ You can disable this at any time in Settings → Check for Updates.
 **What is collected:**
 - App version (e.g., "0.9.0-beta")
 - Operating system (e.g., "Windows 11")
-- Anonymous usage statistics (helps understand which versions are in use)
 
 **What is NOT collected:**
 - Your name, email, or any personal information
