@@ -112,7 +112,7 @@ Born from never saving my Mixcraft projects where I should, or naming them appro
 
 ## Privacy & Updates
 
-This app stays up-to-date by checking for new versions once a day. It sends only your current app version and OS (e.g., Windows 11) to the update server. No personal information is ever collected or stored.
+This app stays up-to-date by checking for new versions once a week. It sends only your current app version and OS (e.g., Windows 11) to the update server. No personal information is ever collected or stored.
 
 You can disable this at any time in Settings → Check for Updates.
 
