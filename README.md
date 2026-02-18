@@ -64,14 +64,18 @@ Born from never saving my Mixcraft projects where I should, or naming them appro
 
 ### Requirements
 - Windows 7/8/10/11
-- .NET Framework 4.7.2 or later (usually already installed)
+- **.NET 8.0 Desktop Runtime** (download if prompted)
+  - If you don't have it, Windows will prompt you to download it automatically
+  - Or download manually: [.NET 8.0 Desktop Runtime](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)
+  - **Size:** ~50 MB download, one-time install
 - No installation of Mixcraft required (reads files directly)
 
 ### Download & Install
 1. Download the latest release from [Releases](https://github.com/Metabolis/daw-project-organiser/releases)
 2. Extract the ZIP file to a folder of your choice
 3. Run `DAWProjectOrganiser.exe`
-4. That's it! No installer needed.
+4. If prompted for .NET 8, click "Download" and follow the installer
+5. That's it! No installer needed.
 
 **Note:** Windows may show a SmartScreen warning for unsigned applications. Click "More info" → "Run anyway".
 
@@ -152,7 +156,9 @@ Planned features for future releases:
 
 If you find this tool useful and want to support its development, donations are greatly appreciated!
 
-You can find a **PayPal QR code** in the About dialog (Help → About)
+You can find a **PayPal QR code** in the About dialog (Help → About), or donate directly via PayPal.
+
+Donations are completely voluntary and help keep development going. Thank you! 🙏
 
 ## Version History
 
