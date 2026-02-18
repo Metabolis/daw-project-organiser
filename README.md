@@ -148,6 +148,12 @@ Planned features for future releases:
 - 📫 **Bug Reports**: [GitHub Issues](https://github.com/Metabolis/daw-project-organiser/issues)
 - 💬 **Questions**: [GitHub Discussions](https://github.com/Metabolis/daw-project-organiser/discussions)
 
+## Support Development
+
+If you find this tool useful and want to support its development, donations are greatly appreciated!
+
+You can find a **PayPal QR code** in the About dialog (Help → About)
+
 ## Version History
 
 See [CHANGELOG.md](CHANGELOG.md) for detailed version history.
