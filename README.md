@@ -100,6 +100,17 @@ Born from never saving my Mixcraft projects where I should, or naming them appro
 - Version: Mixcraft 10 - Shows only MX10 projects
 - Track Type: AUDIO - Projects with audio tracks
 
+### Organising with Colours
+Right-click any project(s) → Set Colour to visually categorise your work:
+- 🔴 **Red** - Needs mixing, has issues
+- 🟡 **Yellow** - Work in progress
+- 🟢 **Green** - Finished, mastered
+- 🔵 **Blue** - Client projects
+- 🟣 **Purple** - Archived/old work
+- 🟠 **Orange** - Experimental/sketches
+
+Colours persist across sessions and make finding projects much easier!
+
 ## Keyboard Shortcuts
 
 | Shortcut | Action |
