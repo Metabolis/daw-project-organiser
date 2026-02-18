@@ -176,12 +176,6 @@ You can disable this at any time in Settings → Check for Updates.
 - 📫 **Bug Reports**: [GitHub Issues](https://github.com/Metabolis/daw-project-organiser/issues)
 - 💬 **Questions**: [GitHub Discussions](https://github.com/Metabolis/daw-project-organiser/discussions)
 
-## Privacy & Updates
-
-This app stays up-to-date by checking for new versions once a day. It sends only your current app version and OS (e.g., Windows 11) to the update server. No personal information is ever collected or stored.
-
-You can disable this at any time in Settings → Check for Updates.
-
 ## Support Development
 
 If you find this tool useful and want to support its development, donations are greatly appreciated!
