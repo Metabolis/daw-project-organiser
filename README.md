@@ -110,6 +110,25 @@ Born from never saving my Mixcraft projects where I should, or naming them appro
 | Ctrl+A | Select All |
 | Delete | Delete Selected from Database |
 
+## Privacy & Updates
+
+This app stays up-to-date by checking for new versions once a day. It sends only your current app version and OS (e.g., Windows 11) to the update server. No personal information is ever collected or stored.
+
+You can disable this at any time in Settings → Check for Updates.
+
+**What is collected:**
+- App version (e.g., "0.9.0-beta")
+- Operating system (e.g., "Windows 11")
+- Anonymous usage statistics (helps understand which versions are in use)
+
+**What is NOT collected:**
+- Your name, email, or any personal information
+- Project files, paths, or names
+- Computer name or username
+- Any identifiable information
+
+All data is used solely to improve the software and understand version adoption.
+
 ## Technical Details
 
 ### What Gets Scanned
@@ -147,10 +166,22 @@ Planned features for future releases:
 - [ ] BPM distribution chart
 - [ ] Recently opened projects list
 
+## Privacy & Updates
+
+This app stays up-to-date by checking for new versions once a week. It sends only your current app version and OS (e.g., Windows 11) to the update server. No personal information is ever collected or stored.
+
+You can disable this at any time in Settings → Check for Updates.
+
 ## Support
 
 - 📫 **Bug Reports**: [GitHub Issues](https://github.com/Metabolis/daw-project-organiser/issues)
 - 💬 **Questions**: [GitHub Discussions](https://github.com/Metabolis/daw-project-organiser/discussions)
+
+## Privacy & Updates
+
+This app stays up-to-date by checking for new versions once a day. It sends only your current app version and OS (e.g., Windows 11) to the update server. No personal information is ever collected or stored.
+
+You can disable this at any time in Settings → Check for Updates.
 
 ## Support Development
 
