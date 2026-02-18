@@ -32,7 +32,7 @@ Born from never saving my Mixcraft projects where I should, or naming them appro
 - ✅ **Real-time Status** - Colour-coded sample status (all found vs. some missing)
 
 ### Metadata & Editing
-- ✏️ **Metadata Editing** - Edit Title, Author, BPM with automatic backups
+- ✏️ **Metadata Editing** - Edit Title, Author and more with automatic backups
 - 📝 **Rich Metadata Display** - Copyright, Album, Year, Comments, Genre
 - 💾 **Safe Editing** - Optional backup creation before modifications
 - 🎛️ **Technical Details** - Track count, master volume, mixer settings (pan, mute, solo)
