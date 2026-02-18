@@ -165,12 +165,6 @@ Planned features for future releases:
 - [ ] BPM distribution chart
 - [ ] Recently opened projects list
 
-## Privacy & Updates
-
-This app stays up-to-date by checking for new versions once a week. It sends only your current app version and OS (e.g., Windows 11) to the update server. No personal information is ever collected or stored.
-
-You can disable this at any time in Settings → Check for Updates.
-
 ## Support
 
 - 📫 **Bug Reports**: [GitHub Issues](https://github.com/Metabolis/daw-project-organiser/issues)
