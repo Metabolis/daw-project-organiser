@@ -129,10 +129,10 @@ Colours persist across sessions and make finding projects much easier!
 
 This app stays up-to-date by checking for new versions once a week. It sends only your current app version and OS (e.g., Windows 11) to the update server. No personal information is ever collected or stored.
 
-You can disable this at any time in Settings → Check for Updates.
+You can disable this at any time in Preferences → Check for Updates.
 
 **What is collected:**
-- App version (e.g., "0.9.0-beta")
+- App version (e.g., "0.9.1-beta")
 - Operating system (e.g., "Windows 11")
 
 **What is NOT collected:**
@@ -175,22 +175,10 @@ Planned features for future releases:
 - [ ] Backup validator
 - [ ] BPM distribution chart
 
-## Privacy & Updates
-
-This app stays up-to-date by checking for new versions once a week. It sends only your current app version and OS (e.g., Windows 11) to the update server. No personal information is ever collected or stored.
-
-You can disable this at any time in Settings → Check for Updates.
-
 ## Support
 
 - 📫 **Bug Reports**: [GitHub Issues](https://github.com/Metabolis/daw-project-organiser/issues)
 - 💬 **Questions**: [GitHub Discussions](https://github.com/Metabolis/daw-project-organiser/discussions)
-
-## Privacy & Updates
-
-This app stays up-to-date by checking for new versions once a week. It sends only your current app version and OS (e.g., Windows 11) to the update server. No personal information is ever collected or stored.
-
-You can disable this at any time in Settings → Check for Updates.
 
 ## Support Development
 
