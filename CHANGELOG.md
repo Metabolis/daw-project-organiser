@@ -66,5 +66,5 @@ First public release - feature complete and stable, seeking community testing.
 ### Known Issues
 - Large libraries (10,000+ projects) may take time on first scan
 - MX8 song length field unreliable (only present in some files)
-- Mixcraft must be closed to edit BPM/metadata (file locking)
+- Mixcraft must be closed to edit metadata (file locking)
 
