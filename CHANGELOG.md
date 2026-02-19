@@ -8,9 +8,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Planned for v1.0
-- Community testing and bug fixes
-- Performance optimization for large libraries
-- Additional user feedback integration
+- Sample library deduplication
+- Backup validator
+- BPM distribution chart
 
 ## [0.9.1-beta] - 2026-02-19
 
@@ -67,11 +67,4 @@ First public release - feature complete and stable, seeking community testing.
 - Large libraries (10,000+ projects) may take time on first scan
 - MX8 song length field unreliable (only present in some files)
 - Mixcraft must be closed to edit BPM/metadata (file locking)
-
-### Future Plans (v1.0+)
-- Project notes/comments field
-- Star/favourite system
-- Batch metadata editor
-- Sample library deduplication
-- Backup validator
 
