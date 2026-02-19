@@ -224,4 +224,4 @@ All modifications are performed with user consent and confirmation dialogs.
 
 **Made with ❤️ for music producers**
 
-**Current Version:** 0.9.0-beta (February 2026)
+**Current Version:** 0.9.1-beta (February 2026)
