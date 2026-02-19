@@ -1,6 +1,34 @@
 # Changelog
 
-All notable changes to DAW Project Organiser for Mixcraft will be documented in this file.
+All notable changes to this project will be documented in this file.
+
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
+and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+## [Unreleased]
+
+### Planned for v1.0
+- Community testing and bug fixes
+- Performance optimization for large libraries
+- Additional user feedback integration
+
+## [0.9.1-beta] - 2026-02-19
+
+### Added
+- **Colour filter** in the search bar — filter by tag colour, or select "None" to find untagged projects
+- **Batch Metadata Editor** (Tools → Batch Edit Metadata, or right-click) — edit metadata across multiple selected projects at once; fields left blank are not changed, pre-fills fields where all selected projects share the same value
+- **Recently Opened** (File → Recently Opened) — quick access to the last 10 projects opened in Mixcraft, with a "Clear" option; missing files are automatically filtered out
+- **Folder Watch** (Preferences → Folder Watch) — automatically scans new or modified .mx files in a watched folder while the app is open; uses a 3-second debounce to wait for Mixcraft to finish writing
+
+### Fixed
+- Deleting projects from the database now correctly reports the count in the status bar (previously always showed 0)
+- "Find & Fix Missing Samples" now replaces all occurrences of a missing sample path in a project file, not just the first — prevents partially-fixed projects
+- Duplicate delete handler removed (context menu and Tools menu now share a single implementation)
+
+### Changed
+- Dead commented-out BPM editing code removed from source
+- Update checker key obfuscated in source code
+- Redundant database migration check removed from `CreateTables`
 
 ## [0.9.0-beta] - 2026-02-18
 
@@ -10,26 +38,24 @@ First public release - feature complete and stable, seeking community testing.
 ### Features
 - Project scanning (files, folders, all drives)
 - SQLite database with Projects, Tracks, and Samples tables
-- Advanced search and filtering (filename, title, author, BPM, version, track type, sample names, file paths)
+- Advanced search and filtering (filename, title, author, BPM, version, track type, sample names)
 - Async background scanning with progress tracking
 - Incremental ListView refresh for fast rescans
 - Missing sample detection with colour-coded indicators
 - Find & Fix Missing Samples tool with multi-drive search
 - Metadata editing (Title, Author, BPM) with optional backups
-- **Colour coding** - Tag projects with 6 colours (Red, Yellow, Green, Blue, Purple, Orange) for visual organisation
 - Dark mode support
 - Font size options (Small, Medium, Large)
 - Column reordering with persistence
 - CSV and text export (all or selected projects)
-- Context menu operations (open, rescan, delete, fix samples, set colour)
+- Context menu operations (open, rescan, delete, fix samples)
 - Tools menu (Find & Fix Samples, Delete from Database/Disk, Clean Up Dead Entries, Scan Errors)
-- About dialog with version info and PayPal donation QR code
+- About dialog with version info
 - Tooltips showing full file paths on hover
 - Window state persistence (size, position, splitter, sort order)
 - Keyboard shortcuts (Ctrl+O, Ctrl+F, Ctrl+S)
 - Status bar with project/track/sample totals
 - Double-click to open project in Mixcraft
-- Automatic update checking (once per week, can be disabled)
 
 ### Supported Formats
 - Mixcraft 10 (.mx10) - Full support
@@ -37,30 +63,15 @@ First public release - feature complete and stable, seeking community testing.
 - Mixcraft 8 (.mx8) - Full support
 - Mixcraft 6-7 (.mx6, .mx7) - Basic support
 
-### Technical Features
-- Binary parser for Mixcraft proprietary format
-- Track type detection (INST, AUDIO, VIDEO, SEND, SUBMIX, OUTPUT)
-- Mixer settings extraction (volume, pan, mute, solo)
-- Effects/plugin detection
-- Sample path tracking with usage counts
-- Version-specific parsing logic
-- Scan error tracking and reporting
-- File size tracking
-- FilePath search capability
-- Last modified/scanned timestamps
-- Database schema migration for updates
+### Known Issues
+- Large libraries (10,000+ projects) may take time on first scan
+- MX8 song length field unreliable (only present in some files)
+- Mixcraft must be closed to edit BPM/metadata (file locking)
 
-## Planned for v1.0
-
-### Features Under Consideration
+### Future Plans (v1.0+)
+- Project notes/comments field
 - Star/favourite system
 - Batch metadata editor
 - Sample library deduplication
 - Backup validator
-- Custom columns
-- BPM distribution chart
-- Recently opened projects list
 
----
-
-**Note:** This is proprietary software. Source code is not publicly available.

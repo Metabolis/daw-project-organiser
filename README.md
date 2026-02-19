@@ -21,6 +21,8 @@ Born from never saving my Mixcraft projects where I should, or naming them appro
 - 🎵 **BPM Range Filter** - Find projects within specific tempo ranges
 - 🎚️ **Track Type Filter** - Filter by INST, AUDIO, VIDEO, SEND, SUBMIX, OUTPUT tracks
 - 📌 **Version Filter** - Separate Mixcraft 8, 9, and 10 projects
+- 🎨 **Colour Filter** - Filter by tag colour, or use "None" to find untagged projects
+- 🎨 **Colour Coding** - Tag projects with colours (Red, Yellow, Green, Blue, Purple, Orange) for visual organisation
 - 🔢 **Smart Sorting** - Sort by any column with visual indicators
 - 📍 **Column Reordering** - Customise column layout - positions saved automatically
 
@@ -33,13 +35,14 @@ Born from never saving my Mixcraft projects where I should, or naming them appro
 
 ### Metadata & Editing
 - ✏️ **Metadata Editing** - Edit Title, Author and more with automatic backups
+- 📝 **Batch Metadata Editor** - Edit metadata across multiple projects at once; only filled fields are applied
 - 📝 **Rich Metadata Display** - Copyright, Album, Year, Comments, Genre
 - 💾 **Safe Editing** - Optional backup creation before modifications
 - 🎛️ **Technical Details** - Track count, master volume, mixer settings (pan, mute, solo)
 - 🔌 **Effects Detection** - Lists all effects/plugins used in each project
 
 ### Data Management
-- 💾 **SQLite Database** - Fast, reliable local storage
+- 🔄 **Folder Watch** - Automatically detect and scan new or modified projects in a watched folder (configure in Preferences)
 - 📤 **Export Options** - Text and CSV export (all projects or selected)
 - 🗑️ **Database Management** - Delete from database or disk, clean up dead entries
 - 📊 **Statistics** - Total projects, tracks, and samples displayed in status bar
@@ -50,6 +53,7 @@ Born from never saving my Mixcraft projects where I should, or naming them appro
 - 📏 **Font Sizes** - Small, Medium, Large options
 - 💬 **Tooltips** - Hover to see full file paths
 - 🪟 **Window State Persistence** - Size, position, splitter, and sort settings saved
+- 🕐 **Recently Opened** - Quick access to the last 10 projects opened in Mixcraft (File → Recently Opened)
 - ⌨️ **Keyboard Shortcuts** - Ctrl+O (scan file), Ctrl+F (scan folder), Ctrl+S (export)
 - 🎨 **Clean Interface** - Professional ListView with aligned columns
 
@@ -57,7 +61,7 @@ Born from never saving my Mixcraft projects where I should, or naming them appro
 - ✅ **Mixcraft 10** (.mx10) - Full support including mixer settings
 - ✅ **Mixcraft 9** (.mx9) - Full support
 - ✅ **Mixcraft 8** (.mx8) - Full support
-- ✅ **Mixcraft 6-7** (.mx6, .mx7) - Basic support
+- ✅ **Mixcraft 6-7** (.mx6, .mx7) - Full support
 - 📊 **Track Types** - INST, AUDIO, VIDEO, SEND, SUBMIX, OUTPUT
 
 ## Installation
@@ -163,23 +167,30 @@ All data is used solely to improve the software and understand version adoption.
 
 - Large libraries (10,000+ projects) may take a while for first scan
 - Mixcraft must be closed to edit BPM/metadata (file locking)
-- Some very old MX6 files may not parse completely
 
 ## Roadmap
 
 Planned features for future releases:
-- [ ] Project notes/comments field
-- [ ] Star/favourite system
-- [ ] Batch metadata editor
 - [ ] Sample library deduplication
 - [ ] Backup validator
 - [ ] BPM distribution chart
-- [ ] Recently opened projects list
+
+## Privacy & Updates
+
+This app stays up-to-date by checking for new versions once a week. It sends only your current app version and OS (e.g., Windows 11) to the update server. No personal information is ever collected or stored.
+
+You can disable this at any time in Settings → Check for Updates.
 
 ## Support
 
 - 📫 **Bug Reports**: [GitHub Issues](https://github.com/Metabolis/daw-project-organiser/issues)
 - 💬 **Questions**: [GitHub Discussions](https://github.com/Metabolis/daw-project-organiser/discussions)
+
+## Privacy & Updates
+
+This app stays up-to-date by checking for new versions once a week. It sends only your current app version and OS (e.g., Windows 11) to the update server. No personal information is ever collected or stored.
+
+You can disable this at any time in Settings → Check for Updates.
 
 ## Support Development
 
@@ -204,7 +215,7 @@ Mixcraft is a registered trademark of Acoustica, Inc.
 
 **File Modifications:** This tool reads Mixcraft project files and modifies them only when you 
 explicitly use the following features:
-- **Metadata Editing** - when editing Title, Author, or other metadata (with optional backup)
+- **Metadata Editing** - When editing Title, Author, or other metadata (with optional backup)
 - **Fix Missing Samples** - When updating sample paths to point to new locations
 
 All modifications are performed with user consent and confirmation dialogs.
