@@ -43,7 +43,7 @@ First public release - feature complete and stable, seeking community testing.
 - Incremental ListView refresh for fast rescans
 - Missing sample detection with colour-coded indicators
 - Find & Fix Missing Samples tool with multi-drive search
-- Metadata editing (Title, Author, BPM) with optional backups
+- Metadata editing (Title, Author, and more) with optional backups
 - Dark mode support
 - Font size options (Small, Medium, Large)
 - Column reordering with persistence

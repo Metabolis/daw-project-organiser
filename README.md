@@ -166,7 +166,7 @@ All data is used solely to improve the software and understand version adoption.
 ## Known Issues
 
 - Large libraries (10,000+ projects) may take a while for first scan
-- Mixcraft must be closed to edit BPM/metadata (file locking)
+- Mixcraft must be closed to edit metadata (file locking)
 
 ## Roadmap
 
