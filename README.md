@@ -4,65 +4,27 @@ A powerful database-driven project manager for Acoustica Mixcraft (versions 6-10
 
 Born from never saving my Mixcraft projects where I should, or naming them appropriately and not being able to find music I've written in the past - this tool solves the eternal struggle of music producers everywhere: **"Where did I save that project?"**
 
-![Version](https://img.shields.io/badge/version-0.9.1--beta-blue)
+![Version](https://img.shields.io/badge/version-1.0-blue)
 ![Platform](https://img.shields.io/badge/platform-Windows-lightgrey)
 ![Mixcraft](https://img.shields.io/badge/Mixcraft-6%20%7C%207%20%7C%208%20%7C%209%20%7C%2010-orange)
 
 ## Features
 
-### Core Functionality
-- 📁 **Project Scanning** - Scan individual files, folders, or entire drives
-- 🔍 **Advanced Search** - Search by filename, title, author, BPM, version, track type, or sample name
-- 📊 **Detailed Analysis** - View tracks, samples, effects, metadata, and mixer settings
-- ⚡ **Async Scanning** - Background scanning with progress tracking - UI stays responsive
-- 🎯 **Incremental Refresh** - Fast updates for rescans without rebuilding the entire list
-
-### Organisation & Filtering
-- 🎵 **BPM Range Filter** - Find projects within specific tempo ranges
-- 🎚️ **Track Type Filter** - Filter by INST, AUDIO, VIDEO, SEND, SUBMIX, OUTPUT tracks
-- 📌 **Version Filter** - Separate Mixcraft 8, 9, and 10 projects
-- 🎨 **Colour Filter** - Filter by tag colour, or use "None" to find untagged projects
-- 🎨 **Colour Coding** - Tag projects with colours (Red, Yellow, Green, Blue, Purple, Orange) for visual organisation
-- 🔢 **Smart Sorting** - Sort by any column with visual indicators
-- 📍 **Column Reordering** - Customise column layout - positions saved automatically
-
-### Sample Management
-- 🎹 **Sample Detection** - Automatically detects and catalogues all samples used in projects
-- 🔴 **Missing Sample Tracking** - Red text indicators for projects with missing files
-- 🔧 **Find & Fix Missing Samples** - Multi-drive search with user-guided selection
-- 🔎 **Sample Name Search** - Find projects using specific samples (e.g., "kick.wav")
-- ✅ **Real-time Status** - Colour-coded sample status (all found vs. some missing)
-
-### Metadata & Editing
-- ✏️ **Metadata Editing** - Edit Title, Author and more with automatic backups
-- 📝 **Batch Metadata Editor** - Edit metadata across multiple projects at once; only filled fields are applied
-- 📝 **Rich Metadata Display** - Copyright, Album, Year, Comments, Genre
-- 💾 **Safe Editing** - Optional backup creation before modifications
-- 🎛️ **Technical Details** - Track count, master volume, mixer settings (pan, mute, solo)
-- 🔌 **Effects Detection** - Lists all effects/plugins used in each project
-
-### Data Management
-- 🔄 **Folder Watch** - Automatically detect and scan new or modified projects in a watched folder (configure in Preferences)
-- 📤 **Export Options** - Text and CSV export (all projects or selected)
-- 🗑️ **Database Management** - Delete from database or disk, clean up dead entries
-- 📊 **Statistics** - Total projects, tracks, and samples displayed in status bar
-- 🔄 **Smart Rescanning** - Skip unchanged files, force rescan when needed
-
-### User Experience
-- 🌓 **Dark Mode** - Easy on the eyes for late-night sessions
-- 📏 **Font Sizes** - Small, Medium, Large options
-- 💬 **Tooltips** - Hover to see full file paths
-- 🪟 **Window State Persistence** - Size, position, splitter, and sort settings saved
-- 🕐 **Recently Opened** - Quick access to the last 10 projects opened in Mixcraft (File → Recently Opened)
-- ⌨️ **Keyboard Shortcuts** - Ctrl+O (scan file), Ctrl+F (scan folder), Ctrl+S (export)
-- 🎨 **Clean Interface** - Professional ListView with aligned columns
+- Scan Library with first‑run drive scan; pick folders to watch
+- Fast rescans with incremental updates; cancellable background scanning
+- Key & Scale columns, filters, and Group by views
+- Time Signature column and details
+- Missing sample detection + Find & Fix Samples
+- Batch metadata editor; safe optional backups
+- CSV/Text export matches your visible columns and opens cleanly in Excel
+- Accurate metadata with accented characters (e.g., Róisín) 
+- Full‑row colour tags; clean ListView with sorting/reorder
+- Help Topics dialog with dark‑mode styling
 
 ### File Format Support
-- ✅ **Mixcraft 10** (.mx10) - Full support including mixer settings
-- ✅ **Mixcraft 9** (.mx9) - Full support
-- ✅ **Mixcraft 8** (.mx8) - Full support
-- ✅ **Mixcraft 6-7** (.mx6, .mx7) - Full support
-- 📊 **Track Types** - INST, AUDIO, VIDEO, SEND, SUBMIX, OUTPUT
+- ✅ **Mixcraft 6–10** (.mx6, .mx7, .mx8, .mx9, .mx10)
+- 📘 **Scope** — Parses the fields this app uses: version, BPM, time signature, track summaries, sample paths, and basic metadata. It does not attempt to fully model every project feature.
+- 📊 **Track Types** — INST, AUDIO, VIDEO, SEND, SUBMIX, OUTPUT
 
 ## Installation
 
@@ -86,94 +48,28 @@ Born from never saving my Mixcraft projects where I should, or naming them appro
 ## Usage
 
 ### Quick Start
-1. **Scan Projects** - File → Scan Folder, select your Mixcraft projects folder
-2. **Browse** - Projects appear in the main list with all metadata
-3. **Search** - Type in the search box to filter (filename, title, author, samples)
-4. **View Details** - Click any project to see full details in the bottom panel
-5. **Open in Mixcraft** - Double-click or right-click → Open in Mixcraft
-
-### Scanning Tips
-- **First Time** - Use "Scan All Drives" to find all projects (may take a while)
-- **Add New Projects** - Scan folder/file - only new/modified files are scanned
-- **After Update** - Use "Rescan All" to refresh track names, volumes, etc.
-- **Fix Missing Samples** - Tools → Find & Fix Missing Samples
-
-### Search Examples
-- `bass` - Finds projects with "bass" in filename, title, author, or sample names
-- Filter BPM: 120-130 - Finds projects between 120-130 BPM
-- Version: Mixcraft 10 - Shows only MX10 projects
-- Track Type: AUDIO - Projects with audio tracks
-
-### Organising with Colours
-Right-click any project(s) → Set Colour to visually categorise your work:
-- 🔴 **Red** - Needs mixing, has issues
-- 🟡 **Yellow** - Work in progress
-- 🟢 **Green** - Finished, mastered
-- 🔵 **Blue** - Client projects
-- 🟣 **Purple** - Archived/old work
-- 🟠 **Orange** - Experimental/sketches
-
-Colours persist across sessions and make finding projects much easier!
+1. File → Scan Library (first‑run: scan drives, pick folders to watch)
+2. Filter and sort to find projects fast
+3. Click a project to view tracks, samples, and metadata
+4. Tools → Find & Fix Missing Samples for broken paths
+5. Right‑click for Open, Rescan, Delete, and Set Colour
 
 ## Keyboard Shortcuts
 
 | Shortcut | Action |
 |----------|--------|
+| Ctrl+L | Scan Library |
 | Ctrl+O | Scan File |
 | Ctrl+F | Scan Folder |
 | Ctrl+S | Export All to Text |
 | Ctrl+A | Select All |
 | Delete | Delete Selected from Database |
 
-## Privacy & Updates
+## Data & Privacy
 
-This app stays up-to-date by checking for new versions once a week. It sends only your current app version and OS (e.g., Windows 11) to the update server. No personal information is ever collected or stored.
-
-You can disable this at any time in Preferences → Check for Updates.
-
-**What is collected:**
-- App version (e.g., "0.9.1-beta")
-- Operating system (e.g., "Windows 11")
-
-**What is NOT collected:**
-- Your name, email, or any personal information
-- Project files, paths, or names
-- Computer name or username
-- Any identifiable information
-
-All data is used solely to improve the software and understand version adoption.
-
-## Technical Details
-
-### What Gets Scanned
-- Project metadata (Title, Author, Copyright, Album, Year, Comments, Genre)
-- BPM and master volume
-- Track information (type, name, volume, pan, mute/solo status)
-- Effects and plugins used
-- Sample files and their paths
-- File size and modification dates
-
-### Database
-- Uses SQLite for fast, reliable storage
-- Database location: `%LOCALAPPDATA%\DAWProjectOrganiser\projects.db`
-- Automatic backup recommended - just copy the entire folder
-
-### Performance
-- Async scanning - UI stays responsive during scans
-- Incremental refresh - only updates changed projects
-- Efficient sample searching across large libraries
-
-## Known Issues
-
-- Large libraries (10,000+ projects) may take a while for first scan
-- Mixcraft must be closed to edit metadata (file locking)
-
-## Roadmap
-
-Planned features for future releases:
-- [ ] Sample library deduplication
-- [ ] Backup validator
-- [ ] BPM distribution chart
+- Settings: `%APPDATA%\DAWProjectOrganiser\settings.json`
+- Database: `%LOCALAPPDATA%\DAWProjectOrganiser\projects.db`
+- Weekly optional update check sends only app version and OS; toggle in Settings
 
 ## Support
 
@@ -212,4 +108,4 @@ All modifications are performed with user consent and confirmation dialogs.
 
 **Made with ❤️ for music producers**
 
-**Current Version:** 0.9.1-beta (February 2026)
+**Current Version:** 1.0 (February 2026)
