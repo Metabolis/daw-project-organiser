@@ -80,7 +80,7 @@ Born from never saving my Mixcraft projects where I should, or naming them appro
 
 If you find this tool useful and want to support its development, donations are greatly appreciated!
 
-You can find a **PayPal QR code** in the About dialog (Help → About), or donate directly via PayPal.
+You can find a **PayPal QR code** in the About dialogue (Help → About).
 
 Donations are completely voluntary and help keep development going. Thank you! 🙏
 
